@@ -1,0 +1,26 @@
+/* Styles pour le tableau et les boutons d'action */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Styles pour le modal et le formulaire */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}

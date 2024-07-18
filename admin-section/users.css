@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.navbar, .btn-download, .head-title, .container {
+    margin-bottom: 20px;
+}
+
+.head-title .left h1 {
+    margin-bottom: 0;
+}
+
+.head-title .breadcrumb {
+    background: none;
+    padding: 0;
+}
+
+.btn-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-download i {
+    margin-right: 5px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.close {
+    padding: 0.75rem 1.25rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}

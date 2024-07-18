@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.teacher-info-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-photo {
+    flex: 1 1 200px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.teacher-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.teacher-details {
+    flex: 2 1 400px;
+    padding: 20px;
+}
+
+.teacher-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.teacher-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.teacher-details p strong {
+    color: #007bff;
+}
